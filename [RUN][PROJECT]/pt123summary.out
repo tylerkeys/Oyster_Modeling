@@ -1,0 +1,88 @@
+ 
+ ###############################################################################
+ #####
+ 
+ ===== I. PARTICLE TRACKING PARAMETERS USED FOR THIS SIMULATION =====
+ 
+ NO. OF TRACKED PARTICLE (NPT) =          5
+ 
+ TRACKING TECHNIQUE = EBE
+ 
+ TRACKING DIRECTION = FORWARD
+ 
+ DESIGNATED RUNGE-KUTTA SCHEME (ID_RK0) =    2
+ 
+ TRACKING TIME CONTROL PARAMETERS:
+ 
+   TRACKING START TIME =     0.000000000E+00
+ 
+   LENGTH OF TRACKING PERIOD =     0.157896000E+08
+ 
+   HOT START WAS NOT ACTIVATED
+ 
+ TRACKING TIME STEP SIZE CONTROL PARAMETERS:
+    INITIAL TIME STEP SIZE FOR TRACKING (DT_INIT0) =   0.500000E+01
+ 
+ ERROR CONTROL PARAMETERS:
+                   DN_SAFE =   0.100000E-04
+                      ATOL =   0.100000E-06
+                      RTOL =   0.000000E+00
+                        SF =   0.900000E+00
+ 
+ MESH SPECIFICATION:
+                 DIMENSION =          3
+       NO. OF GLOBAL NODES =     128604
+    NO. OF GLOBAL ELEMENTS =     165208
+ 
+ 
+ ===== II. PARTICLE TRACKING SUMMARY =====
+ 
+ ===== IWRITE =     1  =====
+ 
+ -------------------------------------------------------------------------------
+ -----
+ IPT =          1
+     CUMULATIVE PT STEPS TRIED FOR THIS PARTICLE =     5716629
+   CUMULATIVE SUCCESSFUL STEPS FOR THIS PARTICLE =      816662
+                      TIME                X               Y               Z
+               ================   ================ ================ ================
+     START AT      0.000000E+00       0.549257E+06     0.637151E+05     0.907291E+02
+       END AT      0.360000E+04       0.549257E+06     0.637151E+05     0.907291E+02
+ -------------------------------------------------------------------------------
+ -----
+ IPT =          2
+     CUMULATIVE PT STEPS TRIED FOR THIS PARTICLE =     4502745
+   CUMULATIVE SUCCESSFUL STEPS FOR THIS PARTICLE =      643250
+                      TIME                X               Y               Z
+               ================   ================ ================ ================
+     START AT      0.000000E+00       0.549303E+06     0.636871E+05     0.870510E+02
+       END AT      0.360000E+04       0.549303E+06     0.636871E+05     0.870510E+02
+ -------------------------------------------------------------------------------
+ -----
+ IPT =          3
+     CUMULATIVE PT STEPS TRIED FOR THIS PARTICLE =     1512057
+   CUMULATIVE SUCCESSFUL STEPS FOR THIS PARTICLE =      167264
+                      TIME                X               Y               Z
+               ================   ================ ================ ================
+     START AT      0.000000E+00       0.549363E+06     0.636660E+05     0.855000E+02
+       END AT      0.360000E+04       0.549330E+06     0.636753E+05     0.855001E+02
+ -------------------------------------------------------------------------------
+ -----
+ IPT =          4
+     CUMULATIVE PT STEPS TRIED FOR THIS PARTICLE =       51992
+   CUMULATIVE SUCCESSFUL STEPS FOR THIS PARTICLE =       20495
+                      TIME                X               Y               Z
+               ================   ================ ================ ================
+     START AT      0.000000E+00       0.549021E+06     0.639836E+05     0.975461E+02
+       END AT      0.360000E+04       0.548972E+06     0.637436E+05     0.975478E+02
+ -------------------------------------------------------------------------------
+ -----
+ IPT =          5
+     CUMULATIVE PT STEPS TRIED FOR THIS PARTICLE =         728
+   CUMULATIVE SUCCESSFUL STEPS FOR THIS PARTICLE =         722
+                      TIME                X               Y               Z
+               ================   ================ ================ ================
+     START AT      0.000000E+00       0.549054E+06     0.639629E+05     0.975325E+02
+       END AT      0.360000E+04       0.548999E+06     0.637232E+05     0.975327E+02
+ -------------------------------------------------------------------------------
+ -----

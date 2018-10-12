@@ -1,0 +1,26 @@
+2    1                ID_RK, ID_EBE
+1                     IBF (-1 = BACKWARD PT, 1 = FORWARD PT)
+0                     T_START  [115.0]
+15789600.0 5.0  0 0.1     DT_PT, DT_INIT, ID_DT, CR [9700.00]
+0                     NT_PT_OUTPUT
+1.0e-7 0.0e0 0.9e0    ATOL, RTOL, SF
+17                    NPT
+ 19301                IDPT(1)
+ 19302                IDPT(2)
+ 19303                IDPT(3)
+ 19304                IDPT(4)
+ 19305                IDPT(5)
+ 19306                IDPT(6)
+ 19307                IDPT(7)
+ 19308                IDPT(8)
+ 19309                IDPT(9)
+ 19310                IDPT(10)
+ 19311                IDPT(11)
+ 19312                IDPT(12)
+ 19313                IDPT(13)
+ 19314                IDPT(14)
+ 19315                IDPT(15)
+ 19316                IDPT(16)
+ 19317                IDPT(17)
+
+
