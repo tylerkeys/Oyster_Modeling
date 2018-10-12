@@ -1,0 +1,26 @@
+3           NEQ (DIMENSION)
+1 1         ID_VEL (0 = STEADY VELOCITY, 1 = TRANSIENT VELOCITY)  ID_VFILE (0 = READ ASCII VELOCITY FILE, OTHERWISE = READ BINARY VELOCITY FILE)
+1.0e-5      DN_SAFE
+1           ID_BN
+PARM        mbay.parm                        
+GEOM        mbay_p3.3dm               
+PTSP        mbay.pt                         
+VNAS        mbay.vnas                        
+VNBF        forward_t_mbay.vnbf
+VNBB        backward_t_mbay.vnbb
+NEMA        mbay.nema                       
+NEMF        forward_t_mbay.nemf
+NEMB        backward_t_mbay.nemb
+SBPT        pt.outbinary
+DBG0        pt.debug
+DOLO        3.0
+DOHI        50.0
+DOXT        10000.0
+SALO        3.0
+SAHI        50.0
+SAXT        10000.0
+TMLO        0.0
+TMHI        1.0
+TMXT        10000.0
+ENDR   TEST.END
+
